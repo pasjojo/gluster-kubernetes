@@ -3,6 +3,7 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
  name: gluster-dyn-pvc
+ namespace: dev 
  annotations:
    volume.beta.kubernetes.io/storage-class: gluster-dyn
 spec:

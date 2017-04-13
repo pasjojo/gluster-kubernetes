@@ -5,7 +5,7 @@ metadata:
   name: gluster-dyn
 provisioner: kubernetes.io/glusterfs
 parameters:
-  resturl: http://10.102.222.29:8080
+  resturl: http://10.244.1.12:8080
   restauthenabled: "false"
-  secretNamespace: "Default"
+  secretNamespace: "dev"
   secretName: "heketi-secret"
