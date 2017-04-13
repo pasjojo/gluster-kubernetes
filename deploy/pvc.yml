@@ -1,0 +1,13 @@
+# test-pvc.yml
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+ name: gluster-dyn-pvc
+ annotations:
+   volume.beta.kubernetes.io/storage-class: gluster-dyn
+spec:
+ accessModes:
+ - ReadWriteMany
+ resources:
+  requests:
+   storage: 5Gi

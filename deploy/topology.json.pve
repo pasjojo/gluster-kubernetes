@@ -1,0 +1,80 @@
+{
+    "clusters": [
+        {
+            "nodes": [
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "k-01"
+                            ],
+                            "storage": [
+                                "192.168.10.101"
+                            ]
+                        },
+                        "zone": 1
+                    },
+                    "devices": [
+                        "/dev/sdb",
+			"/dev/sdc",
+			"/dev/sdd"
+                    ]
+                },
+                { 
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "k-02"
+                            ],
+                            "storage": [
+                                "192.168.10.102"
+                            ]
+                        },
+                        "zone": 1
+                    },
+                    "devices": [
+                        "/dev/sdb",
+			"/dev/sdc",
+			"/dev/sdd"
+                    ]
+                },
+		{
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "k-03"
+                            ],
+                            "storage": [
+                                "192.168.10.103"
+                            ]
+                        },
+                        "zone": 1
+                    },
+                    "devices": [
+                        "/dev/sdb",
+			"/dev/sdc",
+			"/dev/sdd"
+                    ]
+                },
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "k-04"
+                            ],
+                            "storage": [
+                                "192.168.10.104"
+                            ]
+                        },
+                        "zone": 1
+                    },
+                    "devices": [
+                        "/dev/sdb",
+			"/dev/sdc",
+			"/dev/sdd"
+                    ]
+                }                      
+            ]
+        }
+    ]
+}
